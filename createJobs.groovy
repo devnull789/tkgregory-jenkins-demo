@@ -7,6 +7,7 @@ pipelineJob('theme-park-job') {
                         url 'https://github.com/devnull789/tkgregory-spring-boot-api-example.git'
                     }
                     branch 'master'
+                    scriptPath('Jenkinsfile-docker')
                 }
             }
         }
