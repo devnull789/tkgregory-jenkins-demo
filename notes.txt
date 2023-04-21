@@ -1,0 +1,9 @@
+
+# This works to run docker in docker.....
+docker run -it -v /var/run/docker.sock:/var/run/docker.sock -u 0 jenkins-demo:0.1.0-SNAPSHOT /bin/sh
+
+inside container:   
+  docker run hello-world
+  docker run -it alpine /bin/sh
+
+
