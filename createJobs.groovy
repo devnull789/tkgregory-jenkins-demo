@@ -6,7 +6,7 @@ pipelineJob('theme-park-job') {
                     remote {
                         url 'https://github.com/devnull789/tkgregory-spring-boot-api-example.git'
                     }
-                    branch 'master'
+                    branch 'TRIAGE-jenkinsfile-docker'
                     scriptPath('Jenkinsfile-docker')
                 }
             }
